@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "nomadcoders_Typescript by making a Blockchain with it",
   "main": "index.js",
-  "repository": "https://github.com/jjackii/individual/typechain",
+  "repository": "https://github.com/jjackii/individuals/typechain",
   "author": "jimin <jiminseo0307@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.3.4"
+  }
 }
